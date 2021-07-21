@@ -79,7 +79,6 @@ widget.addPage({
 widget.addSetting("我的项目",2,"project")
 
 // 管理员管理相关
-
 // 获取所有项目
 router.registerAdminRouter("GET","",function (context){
     // 获取基本参数
